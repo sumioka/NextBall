@@ -3,7 +3,7 @@
 	window.Manager = {};
 	var _ui;
 	var fileName = ["ui"];
-	var src      = "files/js/";
+	var src    = "files/js/";
 	
 	for(var i = 0; i < fileName.length; i++) {
 		writeJS(fileName[i], src);
@@ -18,7 +18,7 @@
 	});
 	
 	Manager.init = function() {
-		_ui       = Manager.ui;
+		_ui     = Manager.ui;
 		
 		return false;
 		

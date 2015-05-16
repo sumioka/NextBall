@@ -7,7 +7,7 @@ UI
 	
 	(function(){
 		
-		_.ui    = _this = {};
+		_.ui  = _this = {};
 		_window = $(window);
 		
 	})();

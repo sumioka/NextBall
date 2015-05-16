@@ -11,7 +11,7 @@ Localstrage
 		
 	})();
 	
-	_this.save       = save;
+	_this.save     = save;
 	_this.loadData   = loadData;
 	_this.clearData  = clearData;
 	
@@ -39,7 +39,7 @@ Localstrage
 	function getTotal(g) {
 		
 		var total   = (loadData("total")) ? loadData("total") : {};
-		var num     = 0;
+		var num   = 0;
 		var regData = $(".regist");
 		for(var i = 0; i < regData.length; i++) {
 			num += Number(String(regData.eq(i).find(".ovt").text()).split("h")[0]);
