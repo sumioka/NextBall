@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import "../../../files/css/common/layout.css";
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*-------------------------------------------------------------------------
+	Header
+/*-----------------------------------------------------------------------*/
+header {
+  margin-bottom: 50px;
+}
+
+header h1 {
+  width: 50%;
+  max-width: 260px;
+}
+
+header .button {
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+  header .score,
+  header .info {
+    float: left;
+  }
+
+  header .score {
+    padding: 5px 20px;
+    height: 30px;
+    background: #358d86;
+    color: #fff;
+    text-align: center;
+  }
+
+    header .score .point {
+      display: block;
+      font-size: 14px;
+      line-height: 1;
+    }
+
+    header .score .inning {
+      font-size: 10px;
+    }
+
+  header .info {
+    width: 40px;
+    height: 40px;
+  }
+
+/*-------------------------------------------------------------------------
+  Kind
+/*-----------------------------------------------------------------------*/
+#kind {
+  width: 80%;
+  max-width: 640px;
+  margin: 0 auto 50px auto;
+}
+
+  #kind .on {
+    display: none;
+  }
+
+/*-------------------------------------------------------------------------
+  Course
+/*-----------------------------------------------------------------------*/
+#course {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto 50px auto;
+}
+
+  #course .on {
+    display: none;
+  }
+
+/*-------------------------------------------------------------------------
+  Detail
+/*-----------------------------------------------------------------------*/
+#detail {
+  width: 100%;
+  padding:10px 0;
+  background: #358d86;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+

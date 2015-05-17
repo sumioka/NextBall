@@ -6,26 +6,100 @@
 	Index
 /*-----------------------------------------------------------------------*/
 
-#pitches {
+h1 {
+  font-size: 16px;
+  color: #fff;
   margin-bottom: 30px;
 }
-#strikezone {
-  margin-bottom: 30px;
+#all {
+  padding-bottom: 30px;
 }
-  #strikezone div {
-    width: 33%;
-    height: 80px;
-    border: 1px solid #ccc;
-    float: left;
-    box-sizing:border-box;
+h1 img {
+  width: 200px;
+  height: auto;
+}
+
+#course {
+  margin-left: -1%;
+}
+  #course li {
+    width: 32%;
+    height: 100px;
+    float:left;
+    background-color: rgba(53,141,134, 0.5);
+    margin-left: 1%;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  #course #no0 {
+    font-family: "san-serif";
+    float: none;
+    clear: both;
+    width:auto;
+    background-color: rgba(53,141,134, 1);
     text-align: center;
+    color: #ccc;
+    font-size: 25px;
+    padding: 20px 0;
+    height:auto;
+  }
+  #course li:hover {
+    background-color: rgba(255,255,255, 0.1);
+  }
+  #course #no0:hover {
+    background-color: rgba(255,255,255, 0.1);
+  }
+  
+  #count {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+    #count span {
+      font-size: 30px
+    }
+
+#zone {
+  position: relative;
+}
+  #zone ul {
+    background: url(../img/txt_strike.png) center -50px no-repeat;
+    background-size:contain;
+  }
+  #zone #seikai, #zone #fuseikai {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    display:none;
+  }
+  #zone img {
+    width: 100%;
+    height: auto;
   }
 
-#playerdata {
+  #playerdata {
   text-align: center;
+}
+#get {
+  background-color: rgba(53,141,184, 1);
+  text-align: center;
+  border: 1px solid #cdd;
+  padding: 10px 0;
+  font-size: 20px
+  text-align: center;
+  color: #fff;
+  display: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#getdata {
+  width: 80%;
+  margin: 0 auto;
 }
 video {
   width: 100%;
   height: auto;
+  display: none;
 }
-

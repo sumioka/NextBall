@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1,user-scalable=yes">
-<title>練習モード | 1Q</title>
+<title>球場モード | 1Q</title>
 <meta name="robots" content="all" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
@@ -16,21 +16,29 @@
   <div id="all">
     <header>
       <div class="wrap">
-          <h1><img src="../files/img/common/img_logo.png"></h1>
-          <p>練習モード</p>
+          <h1><img src="../files/img/common/game/ttl.png"></h1>
+          <section class="button">
+            <p class="score"><span class="point">4 - 2</span><span class="inning">6回表</span></p>
+            <p class="info"><img src="../files/img/common/game/info.png"></p>
+          </section>
       </div>
     </header>
-    <div class="wrap">
-      <div class="btn">
-        <p id="get" data-team="2008001" data-vs="2005001" data-date="2015/04/25">動画を見る</p>
-      </div>
-      <div id="getdata">
-        <video src="#" id="video" type="video/mp4" controls></video>
-      </div>
-    </div>
+    <section id="main">
+      <section id="kind">
+        <p class="off"><img src="../files/img/common/game/kind/off.png"></p>
+        <p class="on"><img src="../files/img/common/game/kind/on.png"></p>
+      </section>
+      <section id="course">
+        <p class="off"><img src="../files/img/common/game/course/off.png"></p>
+        <p class="on"><img src="../files/img/common/game/course/on.png"></p>
+      </section>
+      <section id="detail">選手データをみる</section>
+    </section>
   </div>
   
 <script type="text/javascript" src="../files/js/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="files/js/script.js"></script>
+<script type="text/javascript" src="../files/js/game.js"></script>
+
 </body>
 </html>
