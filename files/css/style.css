@@ -5,22 +5,39 @@
 /*-------------------------------------------------------------------------
 	Index
 /*-----------------------------------------------------------------------*/
-
-#pitches {
-  margin-bottom: 30px;
-}
-#strikezone {
-  margin-bottom: 30px;
-}
-  #strikezone div {
-    width: 33%;
-    height: 80px;
-    border: 1px solid #ccc;
-    float: left;
-    box-sizing:border-box;
-    text-align: center;
-  }
-
-#playerdata {
+h1 {
   text-align: center;
 }
+header {
+  margin-bottom: 70px;
+}
+#all {
+  padding-top: 60px;
+}
+#mode {
+}
+  #mode li {
+    width: 300px;
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+  #mode li a {
+    display: block;
+    padding: 20px 0 20px 20px;
+    font-size: 26px;
+    color: #fff;
+  }
+  #yoso {
+    border: 2px solid #fff;
+    background-color: #3399b6;
+  }
+    #yoso a {
+      background:url(../img/index/icon_diamond.png) 20px center no-repeat;
+    }
+  #tsume {
+    border: 2px solid #fff;
+    background-color: #5bae86;
+  }
+    #tsume a {
+      background:url(../img/index/icon_ball.png) 20px center no-repeat;
+    }

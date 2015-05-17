@@ -6,7 +6,7 @@
 	All
 /*-----------------------------------------------------------------------*/
 body {
-  background-color: #eef;
+  background-color: #44bab1;
 }
 #all {
   padding-top: 30px;
@@ -22,17 +22,16 @@ body {
   }
 }
 header {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
   header h1 {
-    float: left;
   }
   header .btn {
-    float: right;
   }
-    .btn a {
+    .btn a, .btn p {
       border-radius: 4px;
       border: 1px solid #ccc;
       padding: 5px 15px;
       background-color: #fff;
+      cursor: pointer;
     }
