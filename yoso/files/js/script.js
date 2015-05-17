@@ -13,8 +13,8 @@
 
 	var _query = {};
 
-	//$("#get").on('click', getJson);
-	getJson();
+	$("#get").on('click', getJson);
+
 	/* -------------------------
 	Get JSON
 	------------------------- */
@@ -49,12 +49,9 @@
 
 			  	video.src = data[10].movie_file_path;
 			  	video.currentTime = data[10].movie_start_time;
+			  	video.play();
 			  }
 			});
-
-			$("#get").on("click", function(){
-				video.play();
-			})
 
 			$("#stop").on("click", function(){
 				video.pause();
